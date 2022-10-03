@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="\target\site\serenity\366995aec0c8e62d3ba77bced5a48001ed61caa4cbb7f38feca2a9122fdaabec.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\64b5834b7d9ee4e1db0a0d8fdbc11f87ab2b3d14b29958c95c5c559b5838e3af.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\c8323ce7ea9f0ea0233f15fce6f0ed7e160ee4817754bc4dcb711a847fd13fe2.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\d12df8447e3a27c7bba4420467037bba83c78bd919366abeb1bc4d9003c5b3d7.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\d1906654990dec65c476a203e3bb0560c8617ec726f857d18436696de905df76.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\dbce98d39f48fcaa06469953b77ec401182580fc82d45ed7ae4df89e61e3413d.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\ef513728fb0706eae7e4e385d7fc6c4519b1a3b27fc3c70fe249202918f5e578.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\target\site\serenity\fb359145df1c188eff1d9b22f0ca06cff21a0c0bd31cede447497aca93c48df4.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

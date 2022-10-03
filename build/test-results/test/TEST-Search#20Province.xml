@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search Province" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-03T06:05:42" hostname="DESKTOP-BR4GADO" time="7.382">
+  <properties/>
+  <testcase name="Search Province" classname="Search Province" time="7.382"/>
+  <system-out><![CDATA[
+@Get_province
+Scenario Outline: Search Province                                                                                 ?[90m# features/search_province.feature:13?[0m
+01:05:42.559 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from classpath:features/search_province.feature
+01:05:42.870 [Test worker] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Search Province(search-province;search-province)
+--------------------------------------------------------------------------------
+HTTP/1.1 200 OK
+Cache-Control: private, max-age=0
+Content-Type: text/xml; charset=utf-8
+Date: Mon, 03 Oct 2022 06:05:48 GMT
+Content-Length: 401
+Set-Cookie: TS01da3df4=01737a9c02e57405dcf14168bdc3e45391ec206d8a23ab61f76ba0a4647c78b13d8b3bbf151d238a63514db3a0469f32f94dc41e94; Path=/; Domain=.ovc.catastro.meh.es
+
+<consulta_municipiero xmlns="http://www.catastro.meh.es/">
+  <control>
+    <cumun>1</cumun>
+  </control>
+  <municipiero>
+    <muni>
+      <nm>VIGO</nm>
+      <locat>
+        <cd>54</cd>
+        <cmc>57</cmc>
+      </locat>
+      <loine>
+        <cp>36</cp>
+        <cm>57</cm>
+      </loine>
+    </muni>
+  </municipiero>
+</consulta_municipiero>
+  ?[32mGiven ?[0m?[32m?[0m?[32m?[1mUser?[0m?[32m sends ?[0m?[32m?[1m/ovcservweb/ovcswlocalizacionrc/ovccallejero.asmx/ConsultaMunicipio?[0m?[32m request to search province?[0m ?[90m# starter.com.challenge.tiempo.metrologico.step_definitions.ProvinceStepDefinition.userSendsRequestPARAMToSearchProvince(net.serenitybdd.screenplay.Actor,java.lang.String)?[0m
+  ?[32mThen ?[0m?[32m?[0m?[32m?[1mUser?[0m?[32m validates body response retrieved that contains ?[0m?[32m?[1mVIGO?[0m?[32m and ?[0m?[32m?[1m54?[0m                                           ?[90m# starter.com.challenge.tiempo.metrologico.step_definitions.ProvinceStepDefinition.userValidatesBodyResponseRetrieved(net.serenitybdd.screenplay.Actor,java.lang.String,java.lang.String)?[0m
+01:05:49.550 [Test worker] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Search Province
+----------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[Oct 03, 2022 1:05:49 AM starter.com.challenge.tiempo.metrologico.tasks.SendRequest performAs
+INFO: Response: 
+ io.restassured.path.xml.XmlPath@5d71b500
+]]></system-err>
+</testsuite>

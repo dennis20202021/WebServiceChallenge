@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cat="http://www.catastro.meh.es/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <cat:Provincia>PONTEVEDRA</cat:Provincia>
+        <cat:Municipio>VIGO</cat:Municipio>
+        <cat:Provincia>PONTEVEDRA</cat:Provincia>
+        <cat:Municipio>VIGO</cat:Municipio>
+    </soapenv:Body>
+</soapenv:Envelope>
+

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Employee Details" skipped="0" tests="2" time="8.12" timestamp="2022-10-03 01:00:44"><testcase name="Send a Request to get valid user details"/><testcase name="Send a Request to get invalid user details"/></testsuite>

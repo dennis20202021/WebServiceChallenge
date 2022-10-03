@@ -1,0 +1,18 @@
+<consulta_municipiero xmlns="http://www.catastro.meh.es/">
+    <control>
+        <cumun>1</cumun>
+    </control>
+    <municipiero>
+        <muni>
+            <nm>VIGO</nm>
+            <locat>
+                <cd>54</cd>
+                <cmc>57</cmc>
+            </locat>
+            <loine>
+                <cp>36</cp>
+                <cm>57</cm>
+            </loine>
+        </muni>
+    </municipiero>
+</consulta_municipiero>

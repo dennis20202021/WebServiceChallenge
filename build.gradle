@@ -1,0 +1,72 @@
+defaultTasks 'clean', 'test', 'aggregate'
+
+repositories {
+    mavenLocal()
+    jcenter()
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.24")
+        classpath("net.serenity-bdd:serenity-single-page-report:2.4.24")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+serenity {
+    reports = ["single-page-html"]
+}
+
+ext {
+    slf4jVersion = '1.7.7'
+    serenityCoreVersion = '2.6.0'
+    serenityCucumberVersion = '2.6.0'
+    junitVersion = '4.13.2'
+    assertJVersion = '3.23.1'
+    logbackVersion = '1.2.3'
+    restAssuredVersion = '4.3.2'
+    restLectureVersion = '4.3.3'
+    hamcrestVersion = '2.2'
+    groovyVersion = '3.0.6'
+}
+
+dependencies {
+    testImplementation "ch.qos.logback:logback-classic:${logbackVersion}",
+            "org.hamcrest:hamcrest:${hamcrestVersion}",
+            "io.rest-assured:rest-assured:${restAssuredVersion}"
+
+    implementation "net.serenity-bdd:serenity-core:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-cucumber6:${serenityCucumberVersion}",
+            "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-rest-assured:${serenityCoreVersion}",
+            "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
+            "io.rest-assured:rest-assured-common:${restAssuredVersion}",
+            "io.rest-assured:json-path:${restLectureVersion}",
+            "io.rest-assured:xml-path:${restLectureVersion}",
+            "org.codehaus.groovy:groovy:${groovyVersion}",
+            "org.codehaus.groovy:groovy-xml:${groovyVersion}",
+            "junit:junit:${junitVersion}",
+            "org.assertj:assertj-core:${assertJVersion}"
+}
+
+test {
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)

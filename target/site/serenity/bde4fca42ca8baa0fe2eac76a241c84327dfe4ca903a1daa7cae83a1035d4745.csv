@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Employee Details","Send a Request to get valid user details","PENDING","2022-10-02T16:33:58.686-05:00[America/Bogota]","0.0","0.34"
+"Employee Details","Send a Request to get invalid user details","PENDING","2022-10-02T16:33:59.084-05:00[America/Bogota]","0.0","0.03"
+"Looking up post codes","Looking up US locations by post code","PENDING","2022-10-02T16:33:59.126-05:00[America/Bogota]","0.0","0.11"
